@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+outputs/plots/
+data/raw/alertes/
+data/raw/Avis/
+data/raw/first/
+data/raw/mitre/
+data/raw/rss_cache/
+.DS_Store
