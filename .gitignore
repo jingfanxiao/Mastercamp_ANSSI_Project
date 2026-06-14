@@ -1,11 +1,19 @@
-venv/
+@"
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+
+# Jupyter
 .ipynb_checkpoints/
-outputs/plots/
-data/raw/alertes/
-data/raw/Avis/
-data/raw/first/
-data/raw/mitre/
-data/raw/rss_cache/
+
+# OS
 .DS_Store
+Thumbs.db
+
+*.env
+config_secret.py
+"@ | Out-File -FilePath .gitignore -Encoding utf8
