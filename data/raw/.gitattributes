@@ -1,0 +1,8 @@
+data/raw/Avis/*.json filter=lfs diff=lfs merge=lfs -text
+data/raw/alertes/*.json filter=lfs diff=lfs merge=lfs -text
+data/raw/mitre/*.json filter=lfs diff=lfs merge=lfs -text
+data/raw/first/*.json filter=lfs diff=lfs merge=lfs -text
+data/raw/rss_cache/*.csv filter=lfs diff=lfs merge=lfs -text
+data/processed/*.csv filter=lfs diff=lfs merge=lfs -text
+*.json filter=lfs diff=lfs merge=lfs -text
+*.csv filter=lfs diff=lfs merge=lfs -text
